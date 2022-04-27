@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+        <!------grid will be on top of background image. Background image defined in css using url------->
+            <div class="gridContainer">
+                <div class="gridI">1</div>
+               <div class="textBox">2
+                 <div class="titleTime">
+                   <h1>Tecora's Timer</h1>
+                   <button id="btnStart"> Start </button>
+                   <button id="btnStop"> Stop </button>
+                   <button id="btnReset">Reset</button>
+                </div>  
+                <!---- <form class="input" >
+                        <label for="time">Please Enter Time:</label>    
+                        <input type="text" id="time" name="time"><br>
+                        <input type="submit" value="Start">
+                       </form>---->
+                </div>
+                <div class="gridI">3</div>
+                <div class="gridI">4</div>
+                <div class="grid">5
+                   <div class="formTimer">
+                        <form class="input" >
+                           <!--- <label for="time">Please Enter Time:</label>    
+                            <input type="text" id="time" name="time"><br>
+                            <input type="submit" value="Start">--->
+
+                            <h1><span id= "minutes">00</span>:<span id="seconds">00</span></h1> 
+                        </form>
+                   </div>
+                   
+                   
+                    <!----- <div id="clock" class="blue">
+                        <form class=clockFormat>
+                            <input type="text" placeholder="00" id="clockHour"></input> 
+                            <p>:</p>
+                            <input type="text" placeholder="00" id="clockMinute"></input>
+                            <p>:</p>
+                            <input type="text" placeholder="00" id="clockSeconds"></input>
+                            <button onClick="clickMe()" id="timerStart" type="Submit"></button>
+                        </form>
+
+
+                    </div>---->
+
+
+                </div>
+                <div class="gridI">6</div>
+                <div class="gridI">7</div>
+                <div class="gridI">8</div>
+                <div class="gridI">9</div>
+            </div>
+
+            <!--- code for clock within the grid div under a new div called "blue". ---->
+        <script src="app.js" async defer></script>
+    </body>
+</html>
